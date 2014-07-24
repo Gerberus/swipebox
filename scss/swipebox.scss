@@ -1,4 +1,4 @@
-/*! Swipebox v1.2.8 | Constantin Saguin csag.co | MIT License | github.com/brutaldesign/swipebox */
+/*! Swipebox v1.2.10 | Constantin Saguin csag.co | MIT License | github.com/brutaldesign/swipebox */
 
 // Gradient mixin
 @mixin css-gradient($from: #dfdfdf, $to: #f8f8f8) {
@@ -165,6 +165,23 @@ html.swipebox-html.swipebox-touch {
 		-webkit-transform: translateY(50px);
 		transform: translateY(50px);
 	}
+}
+
+#swipebox-overlay.image-top {
+    #swipebox-slider {
+        .slide {
+            img {
+                padding-top: 100px;
+            }
+        }
+    }
+    #swipebox-action {
+        bottom: inherit;
+        top: 50px;
+    }
+    #swipebox-caption {
+        top: 0;
+    }
 }
 
 #swipebox-slider.rightSpring {
