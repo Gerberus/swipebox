@@ -64,6 +64,7 @@ initialIndexOnArray: 0, // which image index to init when a array is passed
 hideBarsOnMobile : true, // false will show the caption and navbar on mobile devices
 hideBarsDelay : 3000, // 0 to always show caption and action bar
 videoMaxWidth : 1140, // videos max width
+actionPosition: 'bottom', // 'image-top' will move action bar to top and set hideBarsDelay to 0
 beforeOpen: function(){} , // called before opening
 afterClose: function(){}, // called after closing
 loopAtEnd: false // true will return to the first image after the last image is reached
